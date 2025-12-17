@@ -1,0 +1,17 @@
+{
+   "1_4_1_Aquaculture":"Aquaculture",
+   "1_4_1_1_FinfishAquaculture":"Aquaculture",
+   "1_4_1_2_MolluscsAquaculture":"Aquaculture",
+   "1_4_1_3_SeaweedAquaculture":"Aquaculture",
+   "6_7_ProtectedArea*":"Marine Protected Areas",
+   "6_7_1_MarineProtectedArea*":"Marine Protected Areas",
+   "6_7_2_NoTakeZone*":"Marine Protected Areas",
+   "6_7_3_SpeciesCorridor*":"Marine Protected Areas",
+   "6_7_3_1_BirdsMigrationCorridor*":"Marine Protected Areas",
+   "6_7_4_EcologicalProtection*":"Marine Protected Areas",
+   "6_7_5_CoastalProtection*":"Marine Protected Areas",
+   "6_7_6_NavigationProtection*":"Marine Protected Areas",
+   "6_7_7_HeritageProtection*":"Marine Protected Areas",
+   "2_4_4_RenewableEnergyProduction" : "Offshore Wind Energy",
+   "2_4_4_1_RenewableEnergyProductionWind*" : "Offshore Wind Energy"   
+}

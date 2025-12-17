@@ -1,0 +1,76 @@
+@import './base.css';
+body {
+  margin: 0;
+}
+#toogle_vue{
+  display: none;
+}
+.btn_blue{
+  border-radius: 30px !important;
+  padding: 0% 5% !important;
+  text-transform: initial !important;
+  border: 1px solid var(--color-dark-blue) !important;
+}
+.title{
+  font-weight: bold;
+  color: var(--color-dark-blue);
+}
+.ol-zoom {
+  right: .5em !important;
+  left: unset !important;
+}
+
+.check .v-label{
+  opacity: unset !important;
+}
+.check .v-input__details {
+  display: none;
+}
+.v-field__outline, .v-field__outline:focus, .v-field__outline:active, .v-field__outline:hover, .v-field__outline:focus-visible,
+.v-field.v-field--focused .v-field__outline, .v-input.v-input--error .v-field__outline {
+  --v-field-border-width: 0px !important;
+  --v-field-border: none !important;
+}
+
+.popUp_visor{
+  position: absolute;
+  top: 5px;
+  left: 70px;
+  z-index: 50;
+}
+.pop_up_layers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  width: 350px;
+  max-width: 450px;
+}
+.label_layer{
+  color: var(--color-text-blue) !important;
+}
+
+.btn_format .v-btn__content {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.select_style_layer > .v-input__details{
+  display: contents !important;
+}
+
+.ol-attribution.ol-unselectable.ol-control.ol-uncollapsible {
+    visibility: hidden;
+}
+.info{
+  background-color: #cdecff;
+  color: #043885;
+}
+
+.alert_import .alert_container {
+    position: relative;
+    top: 50px;
+    left: 40%;
+    max-width: 75vw !important;
+    width: 1000vw !important;
+}

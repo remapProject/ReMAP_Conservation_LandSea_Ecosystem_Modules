@@ -1,0 +1,609 @@
+{
+  "Aquaculture":{
+    "1_1_Agriculture":{
+      "conflict":{
+        "near":"50m from the coast",
+        "far": "200m buffer round streams"
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_2_Forestry":{
+      "conflict":{
+        "near":"",
+        "far":""
+      },
+      "compatibility":{
+        "near":"coastal area green buffer of 60m",
+        "far":""
+      }
+    },
+    "1_3_MiningAndQuarrying":{
+      "conflict":{
+        "near":"5000m",
+        "far": ">20000m"
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_4_1_Aquaculture":{
+      "conflict":{
+        "near":"1000m from the other aquaculture farms on the coast",
+        "far": ""
+      },
+      "compatibility":{	
+        "near":"",
+        "far":""
+      }
+    },
+    "1_5_2_ManagementOfMigratoryAnimals":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_SecondaryProduction":{
+      "conflict":{
+        "near":"within 1000m from the coast",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_1_RawIndustry":{
+      "conflict":{
+        "near":"within 1000m from the coast",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_4_EnergyProduction":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_4_4_RenewableEnergyProduction":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "3_3_1_PublicAdministrationDefenceAndSocialSecurityServices":{
+      "conflict":{
+        "near":"within 500m from the coast",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_TransportNetworksLogisticsAndUtilities":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_1_3_AirTransport":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_1_4_WaterTransport(ports)":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },
+    "4_1_4_WaterTransport":{
+      "conflict":{
+        "near":"within 1000m from the coast",
+        "far": "5000m"
+      }, 
+      "compatibility":{
+        "near":"<20000m",
+        "far": ""
+      }
+    }, 
+    "4_1_4_WaterTransport(minor regional ports)":{
+      "conflict":{
+        "near":"within 500m from the coast",
+        "far": "1000m"
+      }, 
+      "compatibility":{
+        "near":"<10000m",
+        "far": ""
+      }
+    },  
+    "4_3_1_ElectricityGasAndThermalPowerDistributionServices":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_2_WaterAndSewageInfrastructure":{
+      "conflict":{
+        "near":"within 500m from the coast",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_3_WasteTreatment":{
+      "conflict":{
+        "near":"within 1000m from the coast",
+        "far": " "
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "5_ResidentialUse":{
+      "conflict":{
+        "near":"200m",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "6_7_ProtectedAreas":{
+      "conflict":{
+        "near_default":"500m",
+        "near_aqua":"1000m",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }
+  },
+  "Marine Protected Areas":{
+    "1_1_Agriculture":{
+      "conflict":{
+        "near":"50m",
+        "far": "2000m"
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_2_Forestry":{
+      "conflict":{
+        "near":"",
+        "far":""
+      },
+      "compatibility":{
+        "near":"coastal area green buffer of 60m",
+        "far":""
+      }
+    },
+    "1_3_MiningAndQuarrying":{
+      "conflict":{
+        "near":"5000m",
+        "far": ">20000m"
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_4_1_Aquaculture":{
+      "conflict":{
+        "near":"1000m from the other aquaculture farms on the coast",
+        "far": ""
+      },
+      "compatibility":{	
+        "near":"",
+        "far":""
+      }
+    },
+    "1_5_2_ManagementOfMigratoryAnimals":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_SecondaryProduction":{
+      "conflict":{
+        "near":"500m",
+        "far": "2000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }, 
+    "2_1_RawIndustry":{
+      "conflict":{
+        "near":"500m",
+        "far": "2000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_4_EnergyProduction":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_4_4_RenewableEnergyProduction":{
+      "conflict":{
+        "near":">2000m",
+        "far": ">4000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "3_3_1_PublicAdministrationDefenceAndSocialSecurityServices":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_TransportNetworksLogisticsAndUtilities":{
+      "conflict":{
+        "near":"<100m",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_1_3_AirTransport":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_1_4_WaterTransport(ports)":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },
+    "4_1_4_WaterTransport":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }, 
+    "4_1_4_WaterTransport(minor regional ports)":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_1_ElectricityGasAndThermalPowerDistributionServices":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_2_WaterAndSewageInfrastructure":{
+      "conflict":{
+        "near":"3000m",
+        "far": " 5000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_3_WasteTreatment":{
+      "conflict":{
+        "near":"3000m",
+        "far": " 5000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "5_ResidentialUse":{
+      "conflict":{
+        "near":"200m",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }, 
+    "6_7_ProtectedAreas":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }
+  }, 
+  "Offshore Wind Energy":{
+    "1_1_Agriculture":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_2_Forestry":{
+      "conflict":{
+        "near":"<2000m",
+        "far":"<4000m"
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_3_MiningAndQuarrying":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      },
+      "compatibility":{
+        "near":"",
+        "far":""
+      }
+    },
+    "1_4_1_Aquaculture":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      },
+      "compatibility":{	
+        "near":"",
+        "far":""
+      }
+    },
+    "1_5_2_ManagementOfMigratoryAnimals":{
+      "conflict":{
+        "near":"<2000m",
+        "far": "<4000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "2_SecondaryProduction":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }, 
+    "2_1_RawIndustry":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },   
+    "2_4_EnergyProduction":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"<5000m",
+        "far": "<20000m"
+      }
+    },  
+    "2_4_4_RenewableEnergyProduction":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "3_3_1_PublicAdministrationDefenceAndSocialSecurityServices":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_TransportNetworksLogisticsAndUtilities":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_1_3_AirTransport":{
+      "conflict":{
+        "near":"<2778m",
+        "far": "<12964m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_1_4_WaterTransport(ports)":{
+      "conflict":{
+        "near":"<1850m",
+        "far": "<5000m"
+      }, 
+      "compatibility":{
+        "near":"<20000m",
+        "far": "<50000m"
+      }
+    },
+    "4_1_4_WaterTransport":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }, 
+    "4_1_4_WaterTransport(minor regional ports)":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_1_ElectricityGasAndThermalPowerDistributionServices":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"<20000m",
+        "far": ""
+      }
+    },  
+    "4_3_2_WaterAndSewageInfrastructure":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "4_3_3_WasteTreatment":{
+      "conflict":{
+        "near":"",
+        "far": ""
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "5_ResidentialUse":{
+      "conflict":{
+        "near":"10000m",
+        "far": "30000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    },  
+    "6_7_ProtectedAreas":{
+      "conflict":{
+        "near":">2000m",
+        "far": ">4000m"
+      }, 
+      "compatibility":{
+        "near":"",
+        "far": ""
+      }
+    }
+  } 
+}

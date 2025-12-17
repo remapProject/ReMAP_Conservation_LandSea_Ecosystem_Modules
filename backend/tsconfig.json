@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Version de JavaScript que deseas compilar.
+    "module": "commonjs", // Formato de módulo para Node.js.
+    "outDir": "dist", // Directorio de salida para los archivos compilados.
+    "rootDir": "src", // Directorio raíz de tus archivos fuente.
+    "esModuleInterop": true, // Permite importar módulos ES6 de forma nativa.
+    "forceConsistentCasingInFileNames": true, // Fuerza el uso de mayúsculas y minúsculas consistentes en los nombres de archivo.
+    "resolveJsonModule": true,
+    "strict": true, // Activa las opciones de estricta comprobación de tipos.
+    "noImplicitThis": true, // Evita el uso de `this` con tipos implícitos.
+    "noUnusedLocals": true, // Evita las variables locales no utilizadas.
+    "noUnusedParameters": true, // Evita los parámetros no utilizados en las funciones.
+    "noFallthroughCasesInSwitch": true, // Evita las caídas en los `switch` sin cláusula `break`.
+    "skipLibCheck": true, // Evita la comprobación de tipos en las bibliotecas de TypeScript.
+    "baseUrl": ".", // Base URL para las rutas de módulos.
+    "paths": {
+      // Configuración de rutas para los módulos internos.
+      "@src/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "multer.d.ts"
+  ], // Archivos o directorios que se incluirán en la compilación.
+  "exclude": [
+    "node_modules",
+    "dist",
+    "files",
+  ] // Archivos o directorios que se excluirán de la compilación.
+}

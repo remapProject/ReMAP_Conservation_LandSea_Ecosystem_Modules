@@ -1,0 +1,8 @@
+*
+!/package.json
+!/package-lock.json
+!/src
+!/index.html
+!/jsconfig.json
+!/vite.config.json
+!/vitest.config.json
