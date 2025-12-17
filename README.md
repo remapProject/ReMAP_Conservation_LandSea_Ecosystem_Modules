@@ -1,5 +1,5 @@
 # Conservation, Land-Sea Interactions & Ecosystem Services - Version 1.0.0
-This project is implemented for the Input Data Module Tools of the ReMAP Project.
+This project is implemented for the Conservation, Land-Sea Interactions & Ecosystem Services Module Tools of the ReMAP Project.
 It is developed by [Luz Marina Pulido Santiago](https://github.com/lm106). 
 # ReMAP — Input Data Module Tools
 
